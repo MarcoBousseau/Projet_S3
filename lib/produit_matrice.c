@@ -22,7 +22,6 @@ void transition(int *m1, int *m2, int width,int  height){
 
 void produit_matrice(int *m1, int *m2,int *m3, int height, int width){
 	int i1, j1, p, sum;
-	//transition(m2, mat_inter, width, height);
 	for(i1 = 0; i1 < height; i1++){
 		for(j1 = 0; j1 < width; j1++){
 			sum = 0;
