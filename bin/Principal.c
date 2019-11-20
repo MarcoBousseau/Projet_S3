@@ -3,7 +3,7 @@
 
 int main(void)
 {   
-    //Creation et saisie des valeurs d'activation (4 valeurs pour nous)
+    //Creation de la matrice de coefficientset saisie des valeurs d'activation (4 valeurs pour nous)
     
     int i, *nb_neurones_entree;
     int *activation;
