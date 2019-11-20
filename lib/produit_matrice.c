@@ -1,25 +1,5 @@
 #include <stdio.h>
 
-void affiche_matrice(int *m, int height, int width){
-	int k, l;
-	printf("matrice :\n");
-	for(l=0; l < height; l++){
-	    for(k=0; k < width; k++){
-	    	printf("%d ", m[width*l+k]);
-	    }
-	    printf("\n");
-	}
-}
-
-void transition(int *m1, int *m2, int width,int  height){
-	int i,j;
-	for(i = 0; i < height; i++){
-		for(j = 0; j < width; j++){
-			*(m2 + i*width + j) = (*(m1 + j*width + i));
-		}
-	}
-}
-
 void produit_matrice(int *m1, int *m2,int *m3, int height, int width){
 	int i1, j1, p, sum;
 	for(i1 = 0; i1 < height; i1++){
