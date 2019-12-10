@@ -80,6 +80,7 @@ int main(void)
 	}
 	printf("activation sortie : \n 					%d\n", sortie);
 }
+//test probleme codenvy
 
 
 
